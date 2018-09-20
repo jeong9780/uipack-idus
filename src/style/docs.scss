@@ -1,5 +1,46 @@
 @import '../style/uipack.scss';
 
+// style
+
+.tlarge {
+    height: 48px;
+    width: 105px;
+    font-size: 16px;
+}
+
+.tmain{
+    height: 32px;
+    width: 75px;
+    font-size: 12px;
+}
+
+.tsmall{
+    height: 24px;
+    width: 60px;
+    font-size: 10px;
+}
+
+.tmini{
+    height: 22px;
+    width: 52px;
+    font-size: 10px;
+}
+
+.style1{
+    background: #22a7af;
+    color: #fff;
+}
+
+.style2{
+    background: #fff;
+    border-color: #22a7af;
+    color: #22a7af;
+}
+
+
+
+
+
 .ui_btn--blue {
 
     @include btn-sizing {
